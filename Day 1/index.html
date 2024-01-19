@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="day1.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <h1 id="mainHeading"></h1>
+            <script>
+                var elem = document.getElementById('mainHeading');
+                typeWriter(elem, 'Day1 - JavaScript', 100);
+                window.bulbState = 0;
+            </script>
+
+
+            <center>
+                <img src="pic_bulboff.gif" id="bulb_image"> <br> <br>
+                <button onclick="switchOn()">Switch On</button> 
+                &nbsp; &nbsp;
+                <button onclick="switchOff(); nextV()">Switch Off</button>
+                <br>
+
+                <div id="nextDiv", style="display: none;">
+                    <h2 id="q1">Now what if you want to switch the bulb on/off with a single Button?</h2>
+                    <button onclick="toggleFunc()" id="tBtn">Toggle Bulb</button>
+                </div>
+            </center>
+        </div>
+
+
+
+        <hr style="margin-top: 3rem;", height="3px">
+
+        <div id="workspace">
+            <center><h2 style="color: rgb(150, 150, 150)">Workspace</h2></center>
+
+
+            <!-- WRITE YOUR CODE HERE -->
+
+
+            <!-- till here -->
+
+
+        </div>
+
+    </body>
+</html>
